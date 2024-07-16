@@ -1,6 +1,6 @@
-import Image from "next/image";
-import EmptyCart from "./EmptyCart";
-import { Dispatch, SetStateAction } from "react";
+import Image from 'next/image';
+import EmptyCart from './EmptyCart';
+import { Dispatch, SetStateAction } from 'react';
 
 interface ProductCartProps {
   result: any[];
@@ -41,7 +41,7 @@ export default function ProductCart({
 
   return (
     <div>
-      <div className="flex flex-col justify-center  gap-8 bg-white rounded-xl p-4 pb-10 h-min">
+      <div className="flex flex-col justify-center gap-8 bg-white rounded-xl p-4 pb-10 h-min">
         <p className="text-red-clr align-left text-2xl font-bold">
           Your Cart ({sumQuantity})
         </p>
@@ -95,7 +95,7 @@ export default function ProductCart({
               </div>
               <div className="flex bg-rose-50 py-4 justify-center items-center gap-2 text-sm rounded-lg">
                 <Image
-                  src={"/assets/images/icon-carbon-neutral.svg"}
+                  src={'/assets/images/icon-carbon-neutral.svg'}
                   width={25}
                   height={25}
                   alt="delivery"
