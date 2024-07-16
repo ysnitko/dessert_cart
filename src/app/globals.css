@@ -67,10 +67,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.addQuantity:hover path {
-  fill: hsl(14, 86%, 42%);
-}
-
-.reduceQuantity:hover path {
+.addQuantity:hover path, .reduceQuantity:hover path {
   fill: hsl(14, 86%, 42%);
 }

@@ -853,11 +853,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.addQuantity:hover path {
-  fill: hsl(14, 86%, 42%);
-}
-
-.reduceQuantity:hover path {
+.addQuantity:hover path, .reduceQuantity:hover path {
   fill: hsl(14, 86%, 42%);
 }
 
@@ -883,14 +879,6 @@ html {
 
 @media (min-width: 640px) {
 
-  .sm\:m-5 {
-    margin: 1.25rem;
-  }
-
-  .sm\:mb-5 {
-    margin-bottom: 1.25rem;
-  }
-
   .sm\:flex {
     display: flex;
   }
@@ -905,10 +893,6 @@ html {
 }
 
 @media (min-width: 768px) {
-
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
 
   .md\:grid-cols-cols {
     grid-template-columns: 1fr 0.5fr;
@@ -926,3 +910,4 @@ html {
     gap: 1.25rem;
   }
 }
+
