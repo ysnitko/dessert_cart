@@ -42,7 +42,7 @@ export default function ProductCart({
   return (
     <div>
       <div className="flex flex-col justify-center gap-8 bg-white rounded-xl p-4 pb-10 h-min">
-        <p className="text-red-clr align-left text-2xl font-bold">
+        <p className="text-red-clr align-left md:text-2xl sm:text-xl font-bold">
           Your Cart ({sumQuantity})
         </p>
 

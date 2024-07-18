@@ -41,10 +41,10 @@ export default function Home() {
   return (
     <>
       <div
-        className="grid md:grid-cols-cols max-w-[1200px] w-full justify-center py-20  sm::grid-cols-1 "
+        className="grid md:grid-cols-cols md:max-w-[1200px] md:w-full sm:w-full justify-center py-20  sm::grid-cols-1 "
         style={{ overflow: showModal ? 'hidden' : '' }}
       >
-        <div className="flex flex-col gap-10 md:w-full">
+        <div className="flex flex-col gap-10">
           <h1 className="font-bold text-4xl text-rose-900">Desserts</h1>
           <ul className=" md:flex-row md:flex-wrap md:gap-5 sm:flex sm:flex-col sm:gap-7 ">
             {data.map((item, index) => (

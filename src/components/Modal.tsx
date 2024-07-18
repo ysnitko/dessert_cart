@@ -1,6 +1,6 @@
-"use client";
-import Image from "next/image";
-import { Dispatch, SetStateAction } from "react";
+'use client';
+import Image from 'next/image';
+import { Dispatch, SetStateAction } from 'react';
 
 interface ModalProps {
   result: any[];
@@ -30,11 +30,11 @@ export default function Modal({ result, setResult, setShowModal }: ModalProps) {
   };
 
   return (
-    <div className="absolute">
-      <div className="h-dvh w-screen bg-rose-900 opacity-35  "></div>
-      <div className="w-2/3 bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-lg rounded-xl p-9 flex flex-col gap-7 opacity-100">
+    <div className="absolute [&>div:nth-child(2)]:w-[98%]">
+      <div className="h-dvh w-screen bg-rose-900 opacity-35 "></div>
+      <div className=" md:w-2/3  bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-lg rounded-xl p-9 flex flex-col gap-7 opacity-100">
         <Image
-          src={"/assets/images/icon-order-confirmed.svg"}
+          src={'/assets/images/icon-order-confirmed.svg'}
           width={50}
           height={50}
           alt="confirm"
@@ -53,7 +53,7 @@ export default function Modal({ result, setResult, setShowModal }: ModalProps) {
                 <div className="flex gap-4">
                   <Image
                     className="rounded-md w-12 h-12"
-                    src={`${item.src.split("").splice(1).join("")}`}
+                    src={`${item.src.split('').splice(1).join('')}`}
                     width={48}
                     height={18}
                     alt={item.name}
