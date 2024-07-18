@@ -6,15 +6,15 @@ import './globals.css';
 const redhat = local({
   src: [
     {
-      path: '../../public/assets/fonts/static/RedHatText-Bold.ttf',
+      path: '/assets/fonts/static/RedHatText-Bold.ttf',
       weight: '700',
     },
     {
-      path: '../../public/assets/fonts/static/RedHatText-Regular.ttf',
+      path: '/assets/fonts/static/RedHatText-Regular.ttf',
       weight: '400',
     },
     {
-      path: '../../public/assets/fonts/static/RedHatText-Semibold.ttf',
+      path: '/assets/fonts/static/RedHatText-Semibold.ttf',
       weight: '600',
     },
   ],
