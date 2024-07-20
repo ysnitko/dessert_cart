@@ -22,7 +22,6 @@ export default function Home() {
 
   const decrQuantity = (ids: number) => {
     const findItem = result.find((item) => item.id === ids);
-    console.log(findItem);
     if (findItem) {
       setResult(
         result.map((item) =>
