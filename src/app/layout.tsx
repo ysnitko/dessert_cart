@@ -32,7 +32,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${redhat.className} bg-rose-50 flex justify-center `}>
+      <body
+        className={`${redhat.className} bg-rose-50 
+      flex justify-center `}
+      >
         {children}
       </body>
     </html>

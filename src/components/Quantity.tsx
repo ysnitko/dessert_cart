@@ -1,5 +1,3 @@
-import '../app/globals.css';
-
 interface QuantityProps {
   result: any[];
   id: number;
