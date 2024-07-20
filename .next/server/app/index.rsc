@@ -1,0 +1,7 @@
+2:I[7831,[],""]
+3:I[1881,["703","static/chunks/703-f9f4584a3fe17e4a.js","931","static/chunks/app/page-5f70eb9ee140d195.js"],""]
+4:I[5613,[],""]
+5:I[1778,[],""]
+0:["GjgIbEuFC2ltFfTnE1euj",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1",["$","$L2",null,{"propsForComponent":{"params":{}},"Component":"$3","isStaticGeneration":true}],null]]},[null,["$","html",null,{"lang":"en","className":"scroll-smooth","children":["$","body",null,{"className":" bg-rose-50 \n      flex justify-center ","children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","h1",null,{"children":"Not Found"}],"notFoundStyles":[],"styles":null}]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/96317e22484b1e51.css","precedence":"next","crossOrigin":""}]],"$L6"]]]]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Desserts cart"}],["$","meta","3",{"name":"description","content":"Desserts cart"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+1:null
